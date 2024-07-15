@@ -9,7 +9,3 @@ tags = {
 Name = "Web-server"
 }
 }
-
-output { 
-value = aws_instance.one[*].public_ip
-}
